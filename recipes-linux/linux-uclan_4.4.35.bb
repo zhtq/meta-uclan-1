@@ -34,7 +34,6 @@ SRC_URI += "http://source.mynonpublic.com/uclan/uclan-linux-${PV}-${SRCDATE}.tar
     file://0003-dont-mark-register-as-const.patch \
     file://wifi-linux_4.4.183.patch \
     file://fix-dvbcore-buffer-read.patch \
-    file://extend_modules_space.patch \
 "
 
 S = "${WORKDIR}/linux-${PV}"
